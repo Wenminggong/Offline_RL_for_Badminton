@@ -1,0 +1,38 @@
+# ignore folder
+*/
+
+# not ignore
+!/data
+!/data/shuttle/
+!data/shuttle/*
+
+/data/shuttle_both_test.pkl
+/data/shuttle_both_train.pkl
+/data/shuttle_both_val.pkl
+/data/shuttleset*
+
+!/decision_transformer
+!/decision_transformer/evaluation
+!/decision_transformer/models
+!/decision_transformer/training
+
+!/offline_rl
+!/offline_rl/algorithms
+!/offline_rl/buffer
+!/offline_rl/models
+!/offline_rl/ope
+
+!/prediction
+!/prediction/buffer
+!/prediction/models
+
+
+# ignore some files
+*wr*
+*win_rate*
+active_rl*
+dt_policy_analysis.py
+passive*
+transformer_stroke*
+tactics_evaluation_result_print.sh
+visualize_shot_type_table.py
