@@ -10,6 +10,7 @@
 /data/shuttle_both_train.pkl
 /data/shuttle_both_val.pkl
 /data/shuttleset*
+!/data/shuttleset_data_preprocess.py
 
 !/decision_transformer
 !/decision_transformer/evaluation
